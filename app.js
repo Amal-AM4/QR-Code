@@ -11,7 +11,8 @@ document.getElementById('generate').addEventListener('click', function() {
 
     // Calculate pixel dimensions for 300 DPI and 10 inches
     const dpi = 300;
-    const sizeInches = 10;
+    // const sizeInches = 10;
+    const sizeInches = 2;
     const sizePixels = dpi * sizeInches;
 
     // Generate QR code
