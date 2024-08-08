@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="form-group">
+            <label for="url">Enter URL:</label>
+            <input type="text" id="url" placeholder="https://example.com">
+            <button id="generate">Generate QR Code</button>
+        </div>
+        <div class="qr-preview">
+            <div id="qr-image"></div>
+        </div>
+        <a id="download" href="#" download="qr-code.png">Download QR Code</a>
+
+        <footer>
+            <p>&copy; 2024 <a href="https://www.linkedin.com/in/amal-a-m-kl16/" target="_blank" class="active">Amal</a>. All rights reserved.</p>
+        </footer>
+    </div>
+
+    
+
+    <script src="qrcode.min.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
